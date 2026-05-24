@@ -1,0 +1,9 @@
+#include "types.h"
+void writeLCD(u8);
+void charLCD(u8);
+void cmdLCD(u8);
+void strLCD(u8*);
+void InitLCD(void);
+void u32LCD(u32);
+void s32LCD(s32);
+void f32LCD(f32,u32);
