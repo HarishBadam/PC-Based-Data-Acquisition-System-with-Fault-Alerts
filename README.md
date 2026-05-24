@@ -71,7 +71,4 @@ Temperature = 32.5°C
 
 
 ---
-# Author
-Badam Harish
-
 
