@@ -44,3 +44,30 @@ The project also supports RTC time editing using a keypad triggered through exte
 - Keil uVision
 - Flash Magic
 - Serial Terminal (PuTTY / TeraTerm)
+# ⚙️ System Working
+
+## 1. System Initialization
+
+After power ON, LPC2148 initializes:
+
+- UART communication
+- RTC module
+- ADC for LM35
+- LCD display
+- Keypad
+- LED/Buzzer
+- External interrupt
+
+---
+
+## 2. Temperature Monitoring
+
+The ADC continuously reads analog data from the LM35 sensor and converts it into temperature values.
+
+Example:
+
+```text
+Temperature = 32.5°C
+
+#Author
+Badam Harish
