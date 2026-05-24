@@ -69,5 +69,9 @@ Example:
 ```text
 Temperature = 32.5°C
 
-#Author
+
+---
+# Author
 Badam Harish
+
+
